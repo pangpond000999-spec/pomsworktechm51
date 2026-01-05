@@ -1,0 +1,8 @@
+{
+  "name": "Roblox-Style Game Hub",
+  "description": "A modern, responsive game discovery portal inspired by Roblox, featuring AI-powered game descriptions and a sleek 6-slot grid layout.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
