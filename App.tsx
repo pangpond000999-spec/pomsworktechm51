@@ -12,7 +12,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/1200px-Venn_A_intersect_B.svg.png',
     rating: 98,
     players: '1.2K',
-    link: 'https://9acd7643.gamesjedniphat.pages.dev/'
+    link: 'https://eba1a97d.gamesjedniphat.pages.dev'
   },
   {
     id: '2',
