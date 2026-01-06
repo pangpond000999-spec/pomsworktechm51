@@ -20,7 +20,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://www.lemon8-app.com/seo/image?item_id=7392169542337823248&index=0&sign=62959b7f11dea97d94a653cc92e2bd81',
     rating: 95,
     players: '850',
-    link: 'https://1996d7d3.gamesa.pages.dev/'
+    link: 'https://e9538fdd.gamesa.pages.dev'
   },
   {
     id: '3',
