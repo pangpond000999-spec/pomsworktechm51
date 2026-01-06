@@ -28,7 +28,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO7l3wlCD-uRcxR7uIaTsuFd5h-00EsoLCiQ&s',
     rating: 92,
     players: '2.4K',
-    link: ''
+    link: 'https://1dd7926d.gameskasem.pages.dev'
   },
   {
     id: '4',
