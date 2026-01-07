@@ -36,7 +36,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://www.smartmathpro.com/wp-content/uploads/2024/02/ความน่าจะเป็นม.3-2.jpg',
     rating: 89,
     players: '500',
-    link: ''
+    link: 'https://eca9efd9.gamesflok.pages.dev/'
   },
   {
     id: '5',
