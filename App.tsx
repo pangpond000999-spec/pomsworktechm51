@@ -40,7 +40,7 @@ const INITIAL_GAMES: Game[] = [
   },
   {
     id: '5',
-    title: 'คณิตศาสตร์ เรื่อง เลขยกกำลัง โดย ธนภัทร ปาละหน่อแก้ว',
+    title: 'คณิตศาสตร์ เรื่อง เลขยกกำลัง โดย ทัศณกฤษ ศรีจันทร์',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PnQm9whzTnzOzz5vMRnG-ddgXxWbCHrDPQ&s',
     rating: 94,
     players: '1.1K',
