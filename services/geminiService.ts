@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || 'AIzaSyAKZG2968cpUIFR9bOOjqr9YCfuD87rgcE' });
 
 export const generateGameSlogan = async (gameTitle: string): Promise<string> => {
   if (!process.env.API_KEY) return "The ultimate adventure awaits!";
