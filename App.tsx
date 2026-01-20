@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
 import GameCard from './components/GameCard';
 import { Game } from './types';
 
@@ -9,39 +8,39 @@ const INITIAL_GAMES: Game[] = [
   {
     id: '1',
     title: 'คณิตศาสตร์ เรื่อง เซต โดย เจตนิพัทธ์ ชัยพฤกษ์',
-    thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/1200px-Venn_A_intersect_B.svg.png',
+    thumbnail: 'https://img5.pic.in.th/file/secure-sv1/1fdadab0a778d13b7.png',
     rating: 98,
     players: '1.2K',
-    link: 'https://eba1a97d.gamesjedniphat.pages.dev'
+    link: ''
   },
   {
     id: '2',
     title: 'คณิตศาสตร์ เรื่อง ตรรกศาสตร์ โดย หม่องเอ',
-    thumbnail: 'https://www.lemon8-app.com/seo/image?item_id=7392169542337823248&index=0&sign=62959b7f11dea97d94a653cc92e2bd81',
+    thumbnail: 'https://img2.pic.in.th/2513ac5120c103126.png',
     rating: 95,
     players: '850',
-    link: 'https://e9538fdd.gamesa.pages.dev'
+    link: ''
   },
   {
     id: '3',
     title: 'คณิตศาสตร์ เรื่อง หลักการนับเบื้องต้น โดย เกษม ศิริบุตร',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO7l3wlCD-uRcxR7uIaTsuFd5h-00EsoLCiQ&s',
+    thumbnail: 'https://img2.pic.in.th/3924f3e57687d4d5a.png',
     rating: 92,
     players: '2.4K',
-    link: 'https://1dd7926d.gameskasem.pages.dev'
+    link: ''
   },
   {
     id: '4',
     title: 'คณิตศาสตร์ เรื่อง ความน่าจะเป็น โดย รัฐศาสตร์ แซ่เติ๋น',
-    thumbnail: 'https://www.smartmathpro.com/wp-content/uploads/2024/02/ความน่าจะเป็นม.3-2.jpg',
+    thumbnail: 'https://img2.pic.in.th/417907303f9a4e67f.png',
     rating: 89,
     players: '500',
-    link: 'https://eca9efd9.gamesflok.pages.dev/'
+    link: ''
   },
   {
     id: '5',
-    title: 'คณิตศาสตร์ เรื่อง เลขยกกำลัง โดย ทัศณกฤษ ศรีจันทร์',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PnQm9whzTnzOzz5vMRnG-ddgXxWbCHrDPQ&s',
+    title: 'คณิตศาสตร์ เรื่อง เลขยกกำลัง โดย ธนภัทร ปาละหน่อแก้ว',
+    thumbnail: 'https://img5.pic.in.th/file/secure-sv1/5e843e139f05e6671.png',
     rating: 94,
     players: '1.1K',
     link: ''
@@ -49,7 +48,7 @@ const INITIAL_GAMES: Game[] = [
   {
     id: '6',
     title: 'คณิตศาสตร์ เรื่อง ฟังก์ชัน โดย รณพรี สายมูล',
-    thumbnail: 'https://panyasociety.com/pages/wp-content/uploads/2021/12/f-1-1-A-onto-B-1024x819.png',
+    thumbnail: 'https://img5.pic.in.th/file/secure-sv1/6504400d9d70d4c23.png',
     rating: 91,
     players: '3.2K',
     link: ''
@@ -64,49 +63,45 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#191B1D]">
+    <div className="min-h-screen flex flex-col bg-[#191B1D] font-sans">
       <Navbar />
       
-      <div className="flex flex-1">
-        <Sidebar />
-        
-        <main className="flex-1 p-4 md:p-8 overflow-y-auto max-w-7xl mx-auto w-full">
-          <div className="mb-10 relative h-32 md:h-40 rounded-xl overflow-hidden bg-gradient-to-r from-[#232527] to-[#191B1D] border border-[#393B3D] flex items-center p-8">
-            <div className="z-10">
-              <h1 className="text-2xl md:text-3xl font-extrabold text-white uppercase tracking-tighter">โครงงานเทคโนโลยี</h1>
-              <p className="text-gray-400 text-sm md:text-base mt-1">เกมคณิตศาสตร์</p>
-            </div>
-            {/* Background design element */}
-            <div className="absolute right-0 top-0 w-64 h-full bg-white/5 skew-x-12 transform translate-x-20"></div>
+      <main className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-8">
+        <div className="mb-10 relative h-32 md:h-40 rounded-3xl overflow-hidden bg-gradient-to-r from-[#232527] to-[#191B1D] border border-[#393B3D] flex items-center p-8 shadow-2xl">
+          <div className="z-10">
+            <h1 className="text-3xl md:text-4xl font-bold text-white tracking-wide font-['Mali']">โครงงานเทคโนโลยี</h1>
+            <p className="text-gray-300 text-lg md:text-xl mt-1 font-['Mali']">เกมคณิตศาสตร์</p>
           </div>
+          {/* Background design element */}
+          <div className="absolute right-0 top-0 w-64 h-full bg-white/5 skew-x-12 transform translate-x-20"></div>
+          <div className="absolute left-10 bottom-[-20px] w-32 h-32 bg-blue-500/10 rounded-full blur-2xl"></div>
+        </div>
 
-          <section className="mb-12">
-            <div className="flex items-center justify-between mb-6 border-b border-[#393B3D] pb-2">
-              <h2 className="text-xl font-bold tracking-wide uppercase">Featured Projects</h2>
-              <span className="text-xs text-gray-500 uppercase tracking-widest font-bold">6 Slots Active</span>
-            </div>
-            
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-4 gap-y-6">
-              {games.map((game) => (
-                <GameCard 
-                  key={game.id} 
-                  game={game} 
-                  onUpdate={handleUpdateGame}
-                />
-              ))}
-            </div>
-          </section>
+        <section className="mb-12">
+          <div className="flex items-center justify-center mb-8">
+            <h2 className="text-2xl font-bold tracking-wide text-white/90 font-['Mali'] border-b-2 border-blue-500/50 pb-2 px-8">Featured Projects</h2>
+          </div>
+          
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8">
+            {games.map((game) => (
+              <GameCard 
+                key={game.id} 
+                game={game} 
+                onUpdate={handleUpdateGame}
+              />
+            ))}
+          </div>
+        </section>
 
-          <footer className="mt-16 border-t border-[#393B3D] pt-8 pb-12 text-center text-gray-500 text-xs">
-            <div className="flex flex-wrap justify-center gap-4 mb-4 uppercase tracking-widest font-bold">
-              <a href="#" className="hover:text-white">Profile</a>
-              <a href="#" className="hover:text-white">Settings</a>
-              <a href="#" className="hover:text-white">Support</a>
-              <a href="#" className="hover:text-white">Pom's work © 2025</a>
-            </div>
-          </footer>
-        </main>
-      </div>
+        <footer className="mt-16 border-t border-[#393B3D] pt-8 pb-12 text-center text-gray-500 text-xs">
+          <div className="flex flex-wrap justify-center gap-4 mb-4 uppercase tracking-widest font-bold">
+            <a href="#" className="hover:text-white transition-colors">Profile</a>
+            <a href="#" className="hover:text-white transition-colors">Settings</a>
+            <a href="#" className="hover:text-white transition-colors">Support</a>
+            <a href="#" className="hover:text-white transition-colors">Pom's work © 2025</a>
+          </div>
+        </footer>
+      </main>
     </div>
   );
 }
