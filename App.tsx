@@ -11,7 +11,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img5.pic.in.th/file/secure-sv1/1fdadab0a778d13b7.png',
     rating: 98,
     players: '1.2K',
-    link: 'https://1291ce8f.gamesjedniphat.pages.dev'
+    link: 'https://74f77131.gamesjedniphat.pages.dev'
   },
   {
     id: '2',
