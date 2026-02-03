@@ -11,7 +11,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img5.pic.in.th/file/secure-sv1/1fdadab0a778d13b7.png',
     rating: 98,
     players: '1.2K',
-    link: ''
+    link: 'https://1291ce8f.gamesjedniphat.pages.dev'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img2.pic.in.th/2513ac5120c103126.png',
     rating: 95,
     players: '850',
-    link: ''
+    link: 'https://d2ea8018.gamesa.pages.dev'
   },
   {
     id: '3',
@@ -27,7 +27,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img2.pic.in.th/3924f3e57687d4d5a.png',
     rating: 92,
     players: '2.4K',
-    link: ''
+    link: 'https://1dd7926d.gameskasem.pages.dev'
   },
   {
     id: '4',
@@ -35,7 +35,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img2.pic.in.th/417907303f9a4e67f.png',
     rating: 89,
     players: '500',
-    link: ''
+    link: 'https://eca9efd9.gamesflok.pages.dev'
   },
   {
     id: '5',
@@ -43,7 +43,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img5.pic.in.th/file/secure-sv1/5e843e139f05e6671.png',
     rating: 94,
     players: '1.1K',
-    link: ''
+    link: 'https://f8ed6eaf.gamesthanaphat.pages.dev'
   },
   {
     id: '6',
@@ -51,7 +51,7 @@ const INITIAL_GAMES: Game[] = [
     thumbnail: 'https://img5.pic.in.th/file/secure-sv1/6504400d9d70d4c23.png',
     rating: 91,
     players: '3.2K',
-    link: ''
+    link: 'https://ac7d78ae.gamesfirst.pages.dev'
   }
 ];
 
