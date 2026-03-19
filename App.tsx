@@ -8,7 +8,7 @@ const INITIAL_GAMES: Game[] = [
   {
     id: '1',
     title: 'คณิตศาสตร์ เรื่อง เซต โดย เจตนิพัทธ์ ชัยพฤกษ์',
-    thumbnail: 'https://img5.pic.in.th/file/secure-sv1/1fdadab0a778d13b7.png',
+    thumbnail: 'https://img1.pic.in.th/images/1ff818703d45ad17c.png',
     rating: 98,
     players: '1.2K',
     link: 'https://74f77131.gamesjedniphat.pages.dev'
@@ -40,7 +40,7 @@ const INITIAL_GAMES: Game[] = [
   {
     id: '5',
     title: 'คณิตศาสตร์ เรื่อง เลขยกกำลัง โดย ธนภัทร ปาละหน่อแก้ว',
-    thumbnail: 'https://img5.pic.in.th/file/secure-sv1/5e843e139f05e6671.png',
+    thumbnail: 'https://img2.pic.in.th/57e81c2a32e9e9cc7.png',
     rating: 94,
     players: '1.1K',
     link: 'https://f8ed6eaf.gamesthanaphat.pages.dev'
@@ -48,7 +48,7 @@ const INITIAL_GAMES: Game[] = [
   {
     id: '6',
     title: 'คณิตศาสตร์ เรื่อง ฟังก์ชัน โดย รณพรี สายมูล',
-    thumbnail: 'https://img5.pic.in.th/file/secure-sv1/6504400d9d70d4c23.png',
+    thumbnail: 'https://img2.pic.in.th/687b5063728b1ce2a.png',
     rating: 91,
     players: '3.2K',
     link: 'https://ac7d78ae.gamesfirst.pages.dev'
